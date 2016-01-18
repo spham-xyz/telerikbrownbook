@@ -1,0 +1,23 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/Controls/MasterPage.Master.cs" Inherits="LW1190.Controls.MasterPage" %>
+
+<%@ Register Src="~/Controls/PageHeader.ascx" TagName="PageHeader" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>LW1190</title>
+</head>
+<body>
+   <form id="form1" runat="server">
+      <div>
+         <telerik:RadSkinManager ID="RadSkinManager1" runat="server" Skin="Vista">
+         </telerik:RadSkinManager>
+      </div>
+      <div>
+         <uc1:PageHeader ID="PageHeader1" runat="server"></uc1:PageHeader>
+         <br />
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+      </div>
+   </form>
+</body>
+</html>

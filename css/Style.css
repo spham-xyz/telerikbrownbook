@@ -1,0 +1,70 @@
+﻿tr.altRow {
+    background: none #E0E0E0;
+}
+
+.rcbEdit tr {
+    line-height: 8px;
+}
+
+    .rcbEdit tr:nth-child(even) {
+        background-color: green;
+    }
+
+.RadGrid_Vista tr.selectedRow {
+    background: none #AAD5FF;
+}
+
+.contentWrapper {
+    padding-top: 10px;
+}
+
+.MyImageButton {
+    cursor: pointer;
+}
+
+.hidePageSelector.RadGrid .rgPager .RadComboBox, .RadGrid .rgPagerLabel {
+    display: none !important;
+}
+
+.rcbHeader ul,
+.rcbFooter ul,
+.rcbItem ul,
+.rcbHovered ul,
+.rcbDisabled ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.col1, .col2, .colA, .colB {
+    margin: 0;
+    padding: 0 5px 0 0;
+    line-height: 14px;
+    float: left;
+}
+
+.col1 {
+    width: 80px;
+    font-weight: bold;
+}
+
+.col2 {
+    width: 275px;
+}
+
+.colA {
+    width: 30px;
+    font-weight: bold;
+}
+
+.colB {
+    width: 175px;
+}
+
+.hiliterow:hover {
+    background-color: #3399FF;
+    cursor: pointer;
+    color: #FFFFFF;
+}

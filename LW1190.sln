@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LW1190", "LW1190.csproj", "{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DEV|Any CPU = DEV|Any CPU
+		MO|Any CPU = MO|Any CPU
+		PROD|Any CPU = PROD|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.MO|Any CPU.ActiveCfg = MO|Any CPU
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.MO|Any CPU.Build.0 = MO|Any CPU
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{2B6ABA8F-B7A2-4E43-9DA2-3BFE9BD77E3E}.PROD|Any CPU.Build.0 = PROD|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
